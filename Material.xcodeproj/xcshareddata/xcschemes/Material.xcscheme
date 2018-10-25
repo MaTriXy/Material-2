@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0940"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -34,7 +34,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "963832401B88DFD80015F710"
                BuildableName = "Material.xctest"
-               BlueprintName = "MaterialTests"
+               BlueprintName = "Material iOS Tests"
                ReferencedContainer = "container:Material.xcodeproj">
             </BuildableReference>
          </TestableReference>

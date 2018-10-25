@@ -1,27 +1,51 @@
-![Material](http://www.cosmicmind.io/MK/Material.png)
+![Material](http://www.cosmicmind.com/material/github/material-logo.png)
 
-# Welcome to Material
+# Material
 
-Material is a graphics and animation framework for Google's Material Design. It is designed to allow the creativity of others to easily be expressed.
+Welcome to **Material,** a UI/UX framework for creating beautiful applications. Material's animation system has been completely reworked to take advantage of [Motion](https://github.com/CosmicMind/Motion), a library dedicated to animations and transitions.
+
+[![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Version](https://img.shields.io/cocoapods/v/Material.svg?style=flat)](http://cocoapods.org/pods/Material)
+[![License](https://img.shields.io/cocoapods/l/Material.svg?style=flat)](https://github.com/CosmicMind/Material/blob/master/LICENSE.md)
+![Xcode 8.2+](https://img.shields.io/badge/Xcode-8.2%2B-blue.svg)
+![iOS 8.0+](https://img.shields.io/badge/iOS-8.0%2B-blue.svg)
+![Swift 4.0+](https://img.shields.io/badge/Swift-4.0%2B-orange.svg)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9D6MURMLLUNQ2)
+
+## Photos Sample
+
+Take a look at a sample [Photos](https://github.com/CosmicMind/Samples/tree/master/Projects/Programmatic/Photos) project to get started.
+
+![Photos](http://www.cosmicmind.com/motion/projects/photos.gif)
+
+## Sample Projects
+
+Take a look at [Sample Projects](https://github.com/CosmicMind/Samples) to get your projects started.
 
 ## Features
 
-- [x] Fully Configurable UI Components
-- [x] Base Material Layers & Material Views To Create New UI Components
-- [x] Side Navigation View Controller
-- [x] Navigation Bar View
-- [x] Material Buttons
-- [x] Material Card Views
-- [x] Camera / Video Extension With Extensive Functionality
-- [x] Layout Library To Simplify AutoLayout
-- [x] Animation Extension To Create Intricate Animations
-- [x] Complete Material Color Library
-- [x] Example Projects
+- [x] Completely Customizable
+- [x] [Motion Animations & Transitions](https://github.com/CosmicMind/Motion)
+- [x] Layout Tools for AutoLayout & Grid Systems
+- [x] Color Library
+- [x] Cards
+- [x] FABMenu
+- [x] Icons
+- [x] TextField
+- [x] Snackbar
+- [x] Tabs
+- [x] Chips
+- [x] SearchBar
+- [x] NavigationController
+- [x] NavigationDrawer
+- [x] BottomNavigationBar
+- [x] [Sample Projects](https://github.com/CosmicMind/Samples)
+- [x] And More...
 
 ## Requirements
 
 * iOS 8.0+
-* Xcode 7.2+
+* Xcode 8.0+
 
 ## Communication
 
@@ -33,198 +57,150 @@ Material is a graphics and animation framework for Google's Material Design. It 
 
 ## Installation
 
-> **Embedded frameworks require a minimum deployment target of iOS 8 or OS X Mavericks (10.9).**
+> **Embedded frameworks require a minimum deployment target of iOS 8+.**
 > - [Download Material](https://github.com/CosmicMind/Material/archive/master.zip)
 
-Visit the [Installation](https://github.com/CosmicMind/Material/wiki/Installation) page to learn how to install Material using [CocoaPods](http://cocoapods.org) and [Carthage](https://github.com/Carthage/Carthage).
+Read [Material - It's time to download](https://www.cosmicmind.com/danieldahan/lesson/6) to learn how to install Material & Motion using [GitHub](http://github.com), [CocoaPods](http://cocoapods.org), and [Carthage](https://github.com/Carthage/Carthage).
 
-## Changelog
+## Change Log
 
-Material is a growing project and will encounter changes throughout its development. It is recommended that the [Changelog](https://github.com/CosmicMind/Material/wiki/Changelog) be reviewed prior to updating versions.
+Material is a growing project and will encounter changes throughout its development. It is recommended that the [Change Log](https://github.com/CosmicMind/Material/blob/master/CHANGELOG.md) be reviewed prior to updating versions.
 
-## Examples
+## Icons
 
-* Visit the Examples directory to see example projects using Material.
+Icons is a library of Google and CosmicMind icons that are available for use within your iOS applications.
 
-## A Tour  
+![Icon](http://www.cosmicmind.com/gifs/marketplace/icons.png)
 
-* [MaterialColor](#materialcolor)
-* [SideNavigationViewController](#sidenavigationviewcontroller)
-* [NavigationBarView](#navigationbarview)
-* [TextField](#textfield)
-* [TextView](#textview)
-* [MaterialLayer](#materiallayer)
-* [MaterialView](#materialview)
-* [MaterialPulseView](#materialpulseview)
-* [FlatButton](#flatbutton)
-* [RaisedButton](#raisedbutton)
-* [FabButton](#fabbutton)
-* [CardView](#cardview)
-* [ImageCardView](#imagecardview)
-* [CaptureView](#captureview)
+[Learn More](http://cosmicmind.com/material/icons)
 
-## Upcoming
+## Colors
 
-* SearchBarView
-* SearchBarViewController
-* TabView
-* TabViewController
-* Scrolling Techniques
-* Dialogs
-* Snackbar
-* ProgressBar (circular and horizontal)
-* DatePicker
-* TimePicker
-* More Examples
+Try the Material Colors app to see the wonderful colors available in Material, or use the online version at [MaterialColor.com](http://materialcolor.com).
 
-<a name="materialcolor"></a>
-## MaterialColor
+![MaterialColors](http://www.cosmicmind.com/gifs/shared/colors.gif)
 
-MaterialColor is a complete Material Design color library. It uses base color values that expand to a range of lighter and darker shades, with the addition of accents.
+* [Material Colors iOS App](https://itunes.apple.com/app/x/id1111994400?mt=8)
 
-![MaterialMaterialColorPalette](http://www.cosmicmind.io/MK/MaterialMaterialColorPalette.png)
-
-[Learn More About MaterialColor](https://github.com/CosmicMind/Material/wiki/MaterialColor)
-
-<a name="sidenavigationviewcontroller"></a>
-## SideNavigationViewController
-
-The SideNavigationViewController is an app wide navigation pattern. It generally provides overall app navigation with other useful items. Use the Left position for global app navigation, and the Right position for view navigation.
-
-![MaterialSideNavigationViewController](http://www.cosmicmind.io/MK/MaterialSideNavigationViewController.gif)
-
-[Learn More About SideNavigationViewController](https://github.com/CosmicMind/Material/wiki/SideNavigationViewController)
-
-<a name="navigationbarview"></a>
-## NavigationBarView
-
-A NavigationBarView is a fully featured navigation bar that supports orientation changes, background images, title and detail labels, both left and right button sets, and status bar settings.
-
-![MaterialNavigationBarView](http://www.cosmicmind.io/MK/MaterialNavigationBarView.gif)
-
-[Learn More About NavigationBarView](https://github.com/CosmicMind/Material/wiki/NavigationBarView)
-
-<a name="textfield"></a>
 ## TextField
 
-A TextField is an excellent way to improve UX. TextFields offer details
-that describe the usage and input results of text. For example, when a
-user enters an incorrect email, it is possible to display an error message
-under the TextField.
+A TextField is an excellent way to improve UX. It allows for a placeholder and additional hint details.
 
-![MaterialTextField](http://www.cosmicmind.io/MK/MaterialTextField.gif)
+![TextField](http://www.cosmicmind.com/gifs/white/text-field.gif)
 
-[Learn More About TextField](https://github.com/CosmicMind/Material/wiki/TextField)
+* [TextField Sample](https://github.com/CosmicMind/Samples/tree/master/Projects/Programmatic/TextField)
 
-<a name="textview"></a>
-## TextView
+## Button
 
-A TextView is an excellent way to improve UX. TextViews offer details that describe the usage of text. In addition, TextViews may easily match any regular expression pattern in a body of text. Below is an example of the default hashtag pattern matching.
+A button is used to trigger an action through a touch event. Material comes with a foundational button, and 4 specialized buttons that can be stylized in any way.
 
-![MaterialTextView](http://www.cosmicmind.io/MK/MaterialTextView.gif)
+![Material Image](http://www.cosmicmind.com/material/white/button.gif)
 
-[Learn More About TextView](https://github.com/CosmicMind/Material/wiki/TextView)
+* [Button Sample](https://github.com/CosmicMind/Samples/tree/master/Projects/Programmatic/Button)
 
-<a name="materiallayer"></a>
-## MaterialLayer
+## Switch
 
-MaterialLayer is a lightweight CAShapeLayer used throughout Material. It is designed to easily take shape, depth, and animations.
+A switch is a control component that toggles between on and off states.
 
-![MaterialMaterialLayer](http://www.cosmicmind.io/MK/MaterialMaterialLayer.gif)
+![Material Image](http://www.cosmicmind.com/material/white/switch.gif)
 
-[Learn More About MaterialLayer](https://github.com/CosmicMind/Material/wiki/MaterialLayer)
+* [Switch Sample](https://github.com/CosmicMind/Samples/tree/master/Projects/Programmatic/Switch)
 
-<a name="materialview"></a>
-## MaterialView
+## Card
 
-MaterialView is the base UIView class used throughout Material. Like MaterialLayer, it is designed to easily take shape, depth, and animations. The major difference is that MaterialView has all the added features of the UIView class.
+A Card is a flexible component that may be configured in any way you like. It has a Toolbar, Bar, and content area that may utilize any UIView type.
 
-![MaterialMaterialView](http://www.cosmicmind.io/MK/MaterialMaterialView.gif)
+![Material Image](http://www.cosmicmind.com/gifs/white/card.gif)
 
-[Learn More About MaterialView](https://github.com/CosmicMind/Material/wiki/MaterialView)
+* [Card Sample](https://github.com/CosmicMind/Samples/tree/master/Projects/Programmatic/Card)
 
-<a name="materialpulseview"></a>
-## MaterialPulseView
+## ImageCard
 
-MaterialPulseView is at the heart of all pulse animations. Any view that subclasses MaterialPulseView instantly inherits the pulse animation with full customizability.
+An ImageCard is an expansion of the base Card. The Toolbar overlays an image area that sits above the dynamic content area.
 
-![MaterialMaterialPulseView](http://www.cosmicmind.io/MK/MaterialMaterialPulseView.gif)
+![Image Card Sample](http://www.cosmicmind.com/gifs/white/image-card.gif)
 
-[Learn More About MaterialPulseView](https://github.com/CosmicMind/Material/wiki/MaterialPulseView)
+* [ImageCard Sample](https://github.com/CosmicMind/Samples/tree/master/Projects/Programmatic/ImageCard)
 
-<a name="flatbutton"></a>
-## FlatButton
+## PresenterCard
 
-A FlatButton is simple, clean, and very effective. Below is an example of a FlatButton in action.
+The PresenterCard is a completely new card style. It allows for a primary presentation area that may be any UIView type in addition to the content area, Toolbar, and Bar components. The options for this card are endless.
 
-![MaterialFlatButton](http://www.cosmicmind.io/MK/MaterialFlatButton.gif)
+![Presenter Card Sample](http://www.cosmicmind.com/gifs/white/presenter-card.gif)
 
-[Learn More About FlatButton](https://github.com/CosmicMind/Material/wiki/FlatButton)
+* [PresenterCard Sample](https://github.com/CosmicMind/Samples/tree/master/Projects/Programmatic/PresenterCard)
 
-<a name="raisedbutton"></a>
-## RaisedButton
+## FABMenu
 
-A RaisedButton is sure to get attention. Take a look at the following animation example.
+A FABMenu manages a collection of views. A new MenuItem type has been added that manages a title and button to improve UX and visual beauty.
 
-![MaterialRaisedButton](http://www.cosmicmind.io/MK/MaterialRaisedButton.gif)
+![Material Image](http://www.cosmicmind.com/material/white/menu-controller.gif)
 
-[Learn More About RaisedButton](https://github.com/CosmicMind/Material/wiki/RaisedButton)
+* [FABMenu Sample](https://github.com/CosmicMind/Samples/tree/master/Projects/Programmatic/FABMenuController)
 
-<a name="fabbutton"></a>
-## FabButton
+## Toolbar
 
-A FabButton is essential to Material Design's overall look. Below showcases its beauty.
+Toolbars are super flexible and add excellent control to your navigation flow. They manage a set of left and right views with auto aligning title and detail labels.
 
-![MaterialFabButton](http://www.cosmicmind.io/MK/MaterialFabButton.gif)
+![Material Image](http://www.cosmicmind.com/gifs/white/toolbar-controller.gif)
 
-[Learn More About FabButton](https://github.com/CosmicMind/Material/wiki/FabButton)
+* [Toolbar Sample](https://github.com/CosmicMind/Samples/tree/master/Projects/Programmatic/ToolbarController)
 
-<a name="cardview"></a>
-## CardView
+## SearchBar
 
-Right out of the box to a fully customizable configuration, CardView always stands out. Take a look at a few examples in action.
+A SearchBar is a powerful navigation tool that allows for user's input with an instant visual response. A set of left and right views may be added to expand functionality.
 
-![MaterialCardView](http://www.cosmicmind.io/MK/MaterialCardView.gif)
+![SearchBarController](http://www.cosmicmind.com/gifs/shared/search-bar-controller.gif)
 
-[Learn More About CardView](https://github.com/CosmicMind/Material/wiki/CardView)
+* [SearchBar Sample](https://github.com/CosmicMind/Samples/tree/master/Projects/Programmatic/Search)
 
-Easily remove the pulse animation and add a background image for an entirely new feel.
+## Tabs
 
-![MaterialCardViewFavorite](http://www.cosmicmind.io/MK/MaterialCardViewFavorite.gif)
+Tabs is a new component that links a customizable TabBar to a stack of view controllers making a powerful and visually pleasing component to have in any application.
 
-Adjust the alignment of the UI elements to create different configurations of the CardView.
+![Tabs](http://www.cosmicmind.com/material/white/page-tab-bar-controller.gif)
 
-![MaterialCardViewDataDriven](http://www.cosmicmind.io/MK/MaterialCardViewDataDriven.gif)
+* [Tabs Sample](https://github.com/CosmicMind/Samples/tree/master/Projects/Programmatic/TabsController)
 
-CardViews are so flexible they create entirely new components by removing all but certain elements. For example, bellow is a button bar by only setting the button values of the CardView.
+## NavigationController
 
-![MaterialCardViewButtonBar](http://www.cosmicmind.io/MK/MaterialCardViewButtonBar.gif)
+A NavigationController is a specialized view controller that manages a hierarchy of content efficiently, making it easier for users to move within an application.
 
-<a name="imagecardview"></a>
-## ImageCardView
+![Material Image](http://www.cosmicmind.com/gifs/white/navigation-controller.gif)
 
-Bold and attractive, ImageCardView is the next step from a CardView. Below are some animations to give you an idea of the possibilities the ImageCardView has to offer.
+* [NavigationController Sample](https://github.com/CosmicMind/Samples/tree/master/Projects/Programmatic/NavigationController)
 
-![MaterialImageCardView](http://www.cosmicmind.io/MK/MaterialImageCardView.gif)
+## NavigationDrawer
 
-[Learn More About ImageCardView](https://github.com/CosmicMind/Material/wiki/ImageCardView)
+A NavigationDrawer slides in from the left or right and contains the navigation destinations for your application.
 
-Remove elements, such as details to create a fresh look for your images.
+![Material Image](http://www.cosmicmind.com/material/shared/navigation-drawer-controller.gif)
 
-![MaterialImageCardViewBackgroundImage](http://www.cosmicmind.io/MK/MaterialImageCardViewBackgroundImage.gif)
+* [NavigationDrawer Sample](https://github.com/CosmicMind/Samples/tree/master/Projects/Programmatic/NavigationDrawerController)
 
-<a name="captureview"></a>
-## CaptureView
+## Snackbar
 
-Add a new dimension of interactivity with CaptureView. CaptureView is a fully functional camera that is completely customizable.
+A Snackbar is a new component that is very simple in its behavior and very powerful in its message. It can be used application wide, or isolated to specific view controllers.
 
-![MaterialCaptureView](http://www.cosmicmind.io/MK/MaterialCaptureView.jpg)
+![Material Image](http://www.cosmicmind.com/material/white/snackbar-controller.gif)
 
-[Learn More About CaptureView](https://github.com/CosmicMind/Material/wiki/CaptureView)
+* [Snackbar Sample](https://github.com/CosmicMind/Samples/tree/master/Projects/Programmatic/SnackbarController)
+
+## Sticker Sheet
+
+To help template your project, checkout Material Sticker Sheet.
+
+![MaterialStickerSheet](http://www.cosmicmind.com/MK/material_iso_1.png)
+
+* [Material Sticker Sheet](http://www.materialup.com/posts/material-design-sticker-sheets)
+
+## Much More...
+
+So much more inside. Enjoy!
 
 ## License
 
-Copyright (C) 2015 - 2016, Daniel Dahan and CosmicMind, Inc. <http://cosmicmind.io>. All rights reserved.
+Copyright (C) 2015 - 2018, Daniel Dahan and CosmicMind, Inc. <http://cosmicmind.com>. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -235,7 +211,7 @@ Redistribution and use in source and binary forms, with or without modification,
     this list of conditions and the following disclaimer in the documentation
     and/or other materials provided with the distribution.
 
-*   Neither the name of Material nor the names of its
+*   Neither the name of CosmicMind nor the names of its
     contributors may be used to endorse or promote products derived from
     this software without specific prior written permission.
 
